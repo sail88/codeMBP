@@ -1,0 +1,34 @@
+<!-- Tic Tac Toe -->
+<!-- Homework 3-20-15 -->
+<!-- Steven Gordon -->
+
+<!-- updated 3/23 for JQuery -->
+<!-- updated 3/26/15 for Object-Oriented JS refactoring -->
+
+<!DOCTYPE HTML>
+<html>
+  <head>
+   <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <script src='ticTacToeOOP.js'></script>
+    
+  </head>
+  <body>
+    <h1>Tic Tac Toe</h1>
+    <h2 id="next">X's turn now...</h2>
+    <div id='board'>
+      <!-- the `&nbsp;` in each div is a non-breakable space.
+           It prevents the div from collapsing. -->
+      <div id="box1" class='box' style="border-style:none solid solid none;">&nbsp;</div>
+      <div id="box2" class='box' style="border-style:none solid solid solid;">&nbsp;</div>
+      <div id="box3" class='box' style="border-style:none none solid solid;">&nbsp;</div>
+      <div id="box4" class='box' style="border-style:solid solid solid none;">&nbsp;</div>
+      <div id="box5" class='box' style="border-style:solid solid solid solid;">&nbsp;</div>
+      <div id="box6" class='box' style="border-style:solid none solid solid;">&nbsp;</div>
+      <div id="box7" class='box' style="border-style:solid solid none none;">&nbsp;</div>
+      <div id="box8" class='box' style="border-style:solid solid none solid;">&nbsp;</div>
+      <div id="box9" class='box' style="border-style:solid none none solid;">&nbsp;</div>
+    </div>
+    <button id="reset" class='midgame'>Reset board</button>
+  </body>
+</html>
